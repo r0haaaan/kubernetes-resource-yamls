@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testpod
+  labels:
+    app: website
+    role: frontend
+spec:
+  schedulerName: fake-scheduler
+  containers:
+    - name: website
+      image: nginx
+      ports:
+        - containerPort: 80

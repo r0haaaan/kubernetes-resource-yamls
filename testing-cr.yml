@@ -1,0 +1,6 @@
+apiVersion: crd.com/v1
+kind: TestingCrd
+metadata:
+  name: test1
+spec:
+  hello: world

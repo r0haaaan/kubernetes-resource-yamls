@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PodTemplate
+metadata:
+  name: demo-pod-template
+  labels:
+    Foo: bar
+template:
+    spec:
+      containers:
+        - name: foo
+          image: docker.io/matzew/eventing-display@sha256:f1c948343622a75b5f7a9058aacdffd2dc1732e07a339477f7d1d6ef09da872a

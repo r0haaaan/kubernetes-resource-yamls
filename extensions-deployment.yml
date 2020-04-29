@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tomcat-replicaset
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: tomcat-replicaset
+  template:
+    metadata:
+      labels:
+        app: tomcat-replicaset
+        tier: Backend
+    spec:
+      containers:
+      - name: tomcat
+        image: tomcat:8.0
+        ports:
+        - containerPort: 7474
