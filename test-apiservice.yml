@@ -1,0 +1,14 @@
+apiVersion: apiregistration.k8s.io/v1
+kind: APIService
+metadata:
+  name: v1alpha1.demo.fabric8.io
+spec:
+  group: demo.fabric8.io
+  version: v1alpha1
+  groupPriorityMinimum: 3
+  versionPriority: 3
+  service:
+    namespace: my-service-namespace
+    name: my-service-name
+    port: 1234
+  caBundle: ""

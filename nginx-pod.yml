@@ -8,6 +8,6 @@ metadata:
 spec:
   containers:
     - name: website
-      image: nginx
+      image: nginx:1.7.9
       ports:
         - containerPort: 80

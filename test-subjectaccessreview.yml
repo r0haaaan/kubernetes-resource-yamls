@@ -1,0 +1,11 @@
+---
+apiVersion: authorization.kubernetes.io/v1
+kind: SubjectAccessReview
+spec:
+  resourceAttributes:
+    namespace: projectCaribou
+    verb: get
+    group: unicorn.example.org
+    resource: pods
+  user: foo
+

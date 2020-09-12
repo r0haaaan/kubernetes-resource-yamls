@@ -1,0 +1,10 @@
+---
+apiVersion: authorization.k8s.io/v1
+kind: LocalSubjectAccessReview
+spec:
+  resourceAttributes:
+    namespace: default
+    verb: get
+    group: unicorn.example.org
+    resource: pods
+  user: foo

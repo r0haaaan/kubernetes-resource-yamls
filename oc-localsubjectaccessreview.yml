@@ -1,0 +1,10 @@
+---
+apiVersion: authorization.openshift.io/v1
+kind: LocalSubjectAccessReview
+metadata:
+  name: foo
+namespace: rokumar
+verb: get
+group: unicorn.example.org
+resource: pods
+
