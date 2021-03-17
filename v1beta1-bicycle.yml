@@ -1,0 +1,9 @@
+apiVersion: demos.fabric8.io/v1beta1
+kind: Bicycle
+metadata:
+  name: pinarello-grevil-grx-gravel
+spec:
+  cadence: 68
+  gear: 4
+  speed: 20
+  modelName: "GRX 1x 650b Gravel"

@@ -1,0 +1,9 @@
+apiVersion: demos.fabric8.io/v1
+kind: Bicycle
+metadata:
+  name: santa-cruz-heckler-mx-carbon
+spec:
+  cadence: 60
+  gear: 8
+  speed: 20
+  modelName: "Heckler MX Carbon"
