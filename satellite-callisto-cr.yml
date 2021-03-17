@@ -1,0 +1,8 @@
+apiVersion: demos.fabric8.io/v1alpha1
+kind: Satellite
+metadata:
+  name: callisto
+spec:
+  planet: jupiter
+  radius: "2.410e+3"
+  mass: "1.07593e+23"

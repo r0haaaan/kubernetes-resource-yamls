@@ -1,0 +1,8 @@
+apiVersion: demos.fabric8.io/v1alpha1
+kind: Satellite
+metadata:
+  name: moon
+spec:
+  planet: earth
+  radius: "1.7371e+3"
+  mass: "7.34767309e+22"
