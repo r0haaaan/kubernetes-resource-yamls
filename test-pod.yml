@@ -8,7 +8,7 @@ metadata:
     role: backend
 spec:
   containers:
-  - name: nginx
+  - name: nginxrokumar
     image: nginx:1.7.9
     ports:
     - containerPort: 80
